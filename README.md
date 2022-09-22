@@ -1,17 +1,17 @@
-## Running React on Repl.it
+# Formulario de Contato da Loja G5 Cars Shop
+<img src="./formulario-g5-cars-shop/public/formulario-g5-cars-shop.jpg">
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+Criado com RectJs e Node com Nodemailer para enviar correo electrónico
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+Utilizando a Tailwindcss biblioteca para estilos : https://tailwindcss.com/
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+Também foi utilizado https://apilayer.com/, que é uma API para obter informação de ubicação do usuario e o código de área para os números. 
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+Para ubicação de usurio: API de Ipstack
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+Para verificação de numero: API de verificación de número
 
-### Typescript
+Reactjs y Tailwind CSS foram usadas para criar o formulario de contacto.
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+<img src="./formulario-g5-cars-shop/public/formulario-g5-cars-shop.jpg">
+

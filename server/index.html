@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confirmação envio de e-mail</title>
+  </head>
+  <body>
+    <div style="width: 100%; background-color: #cec6cc; padding: 5rem 0">
+      <div style="max-width: 700px; background-color: white; margin: 0 auto">
+        <div style="width: 100%; background-color: #363635; padding: 20px 0">
+        <a href="${process.env.CLIENT_URL}" >
+            <img src="/fomulario-contato/public/formulario-g5-cars-shop.jpg" alt="" style="width: 100%; height: 70px; object-fit: contain">
+        </a> 
+        
+        </div>
+        <div style="width: 100%; gap: 10px; padding: 30px 0; display: grid">
+          <p style="font-weight: 800; font-size: 1.2rem; padding: 0 30px">
+            Para G5 Cars Shop
+          </p>
+          <div style="font-size: .8rem; margin: 0 30px">
+            <p>FullName: <b>${FullName}</b></p>
+            <p>Email: <b>${email}</b></p>
+            <p>Phone: <b>${phone}</b></p>
+            <p>Message: <i>${message}</i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
